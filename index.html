@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1., maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="responsive.css">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="index2.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="icon" href="Logo/bh logo.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+  <title>BoardLinker</title>
+</head>
+
+
+
+
+<body zoom="disabled">
+  <img class="metal" src="bc/abstract1.png">  
+
+  <div class="home">
+    <div class="Header">
+      <nav>
+        <div class="logo">
+          <img src="Logo/bh logo4.png" width="23px" />
+          <span class="logon">BoardLinker</span>
+        </div>
+
+        <ul class="Nav_items">
+          <li class="Nav_item">
+            <a href="#home2" class="Nav_link">Home</a>
+            <a href="#AboutUs" class="Nav_link">About Us</a>
+            <a href="#con" class="Nav_link">Contact</a>
+          </li>
+        </ul>
+        <div class="button">
+          <a class="button11" href="register1.php">Register</a>
+
+          <button class="uiverse" class="button22" id="FormOpen">
+            <div class="wrapper">
+              <span>Login</span>
+              
+              <div class="circle circle-12"></div>
+              <div class="circle circle-11"></div>
+              <div class="circle circle-10"></div>
+              <div class="circle circle-9"></div>
+              <div class="circle circle-8"></div>
+              <div class="circle circle-7"></div>
+              <div class="circle circle-6"></div>
+              <div class="circle circle-5"></div>
+              <div class="circle circle-4"></div>
+              <div class="circle circle-3"></div>
+              <div class="circle circle-2"></div>
+              <div class="circle circle-1"></div>
+            </div>
+          </button>
+
+
+          <div class="toggle-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+
+        </div>
+      </nav>
+      <div class="dropdown-menu">
+        <li>
+          <a href="#home2" class="Nav_link">Home</a> </li>
+          <li><a href="#AboutUs" class="Nav_link">About Us</a></li>
+          <li><a href="#con" class="Nav_link">Contact</a></li>
+         <li><a class="button11" href="register.php">Register</a></li>
+    </div>
+    </div>
+
+
+
+    <!--Home-->
+    <section class="home" id="#home">
+      <div class="form_container">
+        <i class="uil uil-times form_close"> </i>
+        <!--login Form-->
+        <div class="formlogin_form">
+          <form action="index.php" id="form" method="Post"> 
+
+            <h2>Sign in</h2><br>
+            <p>We're glad to have you here.</p><br>
+            <span id="error_message" style="color: rgb(220, 0, 0);">
+                <?php echo $error_message; ?> 
+            </span>
+
+
+
+            <div class="input_box">
+              <input type="text" id="username" name="username" placeholder="Enter your Username" />
+              <i class="uil uil-user username"></i>
+
+
+
+            </div><span id="username_error" style="color: rgb(220, 0, 0); display: none;"></span>
+
+
+            <div class="input_box">
+              <input type="password" id="password" name="password" placeholder="Enter your Password" />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+
+
+
+            </div><span id="password_error" style="color: rgb(220, 0, 0); display: none;"></span>
+
+
+            <div class="option_field">
+              <span class="check_box">
+                <input type="checkbox" id="check">
+                <label for="check">Remember me</label>
+              </span>
+
+              <a href="ForgotPassword2.html" forgot_pw>Forgot password?</a>
+            </div>
+
+            <button type="submit" class="button55">Login Now</button>
+
+
+            <div class="login_signup">
+              Don't have an account? <a href="register.html">Sign Up</a>
+            </div>
+          </form>
+        </div>
+
+
+
+
+      </div>
+
+      <section class="FrontText" id="home2">
+        <div data-aos="flip-left" data-aos-offset="400"
+          data-aos-easing="ease-in-sine" class="Description">
+          <h1 class="D1">Find Your Space, Save Your Cash! with</h1>
+          <h1 class="D2">Board Linker</h1><br><br><br>
+          <p>Find Your Space, Save Your Cash!" embodies our commitment to providing affordable lodging without
+            compromising comfort and quality. At Board Linker, we offer cozy accommodations that cater to your needs,
+            allowing you to enjoy a welcoming environment while keeping your budget in check. Whether you're here for
+            work
+            or leisure, our goal is to help you feel at home without breaking the bank!</p>
+        </div>
+
+      </section>
+
+  </div>
+
+  <section class="Process" id="AboutUs">
+    <div data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine" class="Sec2Con">
+
+
+      <!-- From Uiverse.io by MuhammadHasann -->
+      <div class="card">
+        <div class="card__border"></div>
+        <div class="card_title__container">
+          <span id="prks" class="card_title">Perks of Using Board LINKER </span>
+          
+        </div>
+        <hr class="line" />
+        <ul class="card__list">
+          <li class="card__list_item">
+            <span class="check">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="check_svg">
+                <path
+                  fill-rule="evenodd"
+                  d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </span>
+            <span class="list_text">Hassle-free boarding house search</span>
+          </li>
+          <li class="card__list_item">
+            <span class="check">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="check_svg">
+                <path
+                  fill-rule="evenodd"
+                  d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </span>
+            <span class="list_text">Safe accommodations</span>
+          </li>
+          <li class="card__list_item">
+            <span class="check">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="check_svg">
+                <path
+                  fill-rule="evenodd"
+                  d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </span>
+            <span class="list_text">Affordable options for students and professionals</span>
+          </li>
+          <li class="card__list_item">
+            <span class="check">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="check_svg">
+                <path
+                  fill-rule="evenodd"
+                  d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </span>
+            <span class="list_text">User reviews and ratings</span>
+          </li>
+          <li class="card__list_item">
+            <span class="check">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="check_svg">
+                <path
+                  fill-rule="evenodd"
+                  d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </span>
+            <span class="list_text">Easy online booking and inquiries</span>
+          </li>
+        </ul>
+
+      </div>
+
+
+
+
+      <div class="AboutUs" data-aos="flip-up" data-aos-offset="400"
+        data-aos-easing="ease-in-sine" id="about">
+        <div class="abt">
+          <h2>About Us</h2><br>
+          <h3>Welcome to Board LINKER – Your Affordable Home Away From Home!</h3>
+          <p>At Board LINKER, we understand that finding the right place to stay can be a challenge, especially when
+            you’re juggling the demands of student life or managing a busy professional schedule. That's why we’re
+            dedicated to providing comfortable, affordable, and well-maintained boarding houses designed specifically
+            for
+            students and professionals.</p>
+        </div><br>
+        <hr>
+      </div>
+
+    </div>
+
+  </section>
+  <br>
+
+  <section class="how-it-works">
+  
+    <h2>How <div class="shine">Board Linker</div> Works?</h2>
+    <br>
+
+    <div class="steps-container">
+      <div class="step" data-aos="flip-left" data-aos-offset="50"
+        data-aos-easing="ease-in-sine">
+        <img src = "BC/eye2.png" WIDTH = "50PX">
+
+        <h3>Search & Browse</h3>
+
+        <hr><br>
+
+        <p>Find a boarding house based on location and budget.</p>
+      </div>
+      <div class="step" data-aos="flip-left" data-aos-offset="100"
+        data-aos-easing="ease-in-sine">
+        
+          <img src = "BC/eye.png" WIDTH = "50PX">
+
+
+        <h3>View Listings</h3>
+
+        <hr><br>
+
+        <p>See details, photos, amenities, and reviews.</p>
+      </div>
+
+      <div class="step" data-aos="flip-left" data-aos-offset="150"
+        data-aos-easing="ease-in-sine">
+        <img src = "BC/book2.png" WIDTH = "50PX">
+        <h3>Book & Reserve</h3>
+
+        <hr><br>
+
+        <p>Secure your place online or contact the owner.</p>
+      </div>
+      <div class="step" data-aos="flip-left" data-aos-offset="200"
+        data-aos-easing="ease-in-sine">
+        <img src = "BC/secure.png" WIDTH = "50PX">
+        <h3>Secure Stay</h3>
+
+        <hr><br>
+
+        <p>Enjoy a verified and safe boarding house.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" class="WHOWREWE">
+    <br>
+    <div class="DISPLAYF">
+
+      <div class="Whoarewe">
+        <div  class="wrw">
+          <br><br>
+          <h2 class="who">Who are we</h2><br>
+
+
+          <p>We are students from <strong>Northwest Samar State University, Studied BS Information Technology</strong>,
+            passionate about creating solutions that make life easier for our fellow students and young
+            professionals. Our mission is to help property owners connect with responsible tenants while ensuring
+            affordability and convenience for everyone.</p><br>
+          <hr>
+        </div>
+      </div>
+
+      <img class="img2" src="BC/bdlaptop.png">
+    </div>
+
+  </section><br>
+
+  <section class="MAP" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"> 
+    <div class="boxxx">
+      <h1 class="loc">Our Location</h1><br>
+      <p><strong>Boardlinker</strong> is proudly based in Northwest Samar, home to <Strong>Northwest Samar State University</Strong>, where our team of BSIT Students studied. As a students, we understand the struggles of finding safe, affordable, and comfortable boarding houses. That’s why Boardlinker was created—to help students and professionals easily find the perfect place to stay without the hassle. Whether you're studying or working in the area, we’re here to connect you with the best accommodations that fit your needs and budget.
+      <br><br><hr>
+    </div>
+
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.265292633835!2d124.5941599747183!3d12.071274688167405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3309d9557a63c83b%3A0x192ccf3a4bccfbe6!2sNorthwest%20Samar%20State%20University!5e1!3m2!1sen!2sph!4v1739004505877!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+  </section>
+
+
+</body>
+//
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script src="index2.js"></script>
+
+</html>
+
+<?php
+include("contact.html"); 
+?>

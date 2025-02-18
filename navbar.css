@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+   
+}
+body{
+    background-image:url(images/maxresdefault.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100vh;;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.link:hover{
+    border-bottom: 2px solid #f3e8ca;
+}
+header{
+    position: relative;
+   
+}
+nav{
+    width: 100%;
+    height: 40%;
+    max-width: 2200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    background: #082842;
+}
+nav .logo .link{
+    color: #f3e8ca;
+    font-size: 1.0rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+nav ul{
+    display: flex;
+    gap: 2rem;
+
+}
+nav .toggle-btn{
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: none;
+}
+.login-btn{
+    background-color: #f3e8ca;
+    color: #322505;
+    padding: 0.1rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    display: none;
+    position:absolute;
+    right: 0.1px;
+    height: 0;
+    top: 40px;
+    width: 250px;
+    background:  #082842;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: width 1s ease-in-out;
+}
+
+.dropdown-menu .login-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.dropdown-menu li{
+    padding: 0.1rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.dropdown-menu.open{
+    height: 93.4vh;
+}
+#contact-btn{
+    padding: 0.3rem 1.4rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-align: justify;
+    font-weight: bold;
+    margin: 1rem;
+    background: #f3e8ca;
+}
+@media(max-width:1536px){
+    .description{
+        display: block;
+    }
+}
+@media(max-width:1280px){
+    .description{
+        display: block;
+    }
+}
+@media(max-width:1024px){
+    .description{
+        display: block;
+    }
+}
+@media(max-width:768px){
+    .description{
+        display: block;
+    }
+}
+@media(max-width:640px){
+    .description{
+        display: block;
+    }
+}
+@media(max-width:475px){
+    .description{
+        display: block;
+    }
+}

@@ -1,0 +1,83 @@
+@media only screen and (max-width:550px) {
+   
+   Section .Sec2Con{
+    display: inline-block;
+   }
+   #home{
+      position: absolute;
+      left: 0;
+   }
+   .card{
+    display: block;
+    margin-left: 2rem;
+    max-width: 300px;
+   }
+   #prks{
+      font-size: 20px;
+   }
+   .process{
+    flex-direction: column;
+   }
+   #about{
+   margin-left: 2rem;
+    max-width: 300px;
+   }
+  
+   .Description{
+      max-width: 300px;
+      margin-left: 3rem;
+      display: block;
+   }
+   .DISPLAYF{
+      margin-left: 2rem;
+    text-align: center;
+    max-width: 370px;
+    flex-direction: column;
+   }
+
+   .MAP{
+    flex-direction: column;
+    max-width: 390px;
+    margin-left: 0.5rem;
+   }
+   .wrw{
+      width: 320px;
+   }
+   .wrw .who{
+      font-size: 25px;
+   }
+   iframe{
+    width: 99%;
+   }
+   .FrontText .D1{
+      display: flex;
+      align-items: baseline;
+      width: 300px;
+      margin-top: 2rem;
+      font-size: 25px;
+   }
+   .FrontText .D2{
+      font-size: 25px;
+   }
+   h2 .shine{
+      font-size: 25px;
+   }
+   .boxxx .loc{
+      font-size: 25px;
+   }
+  }
+body{
+   max-width: 100%;
+   -webkit-text-size-adjust:none;
+   -ms-text-size-adjust:none;
+   text-size-adjust: none;
+   zoom: 1;
+   -moz-transform: scale(1);
+   -ms-transform: scale(1);
+   -o-transform: scale(1);
+   -webkit-transform: scale(1);
+   transform: scale(1);
+}
+
+
+
